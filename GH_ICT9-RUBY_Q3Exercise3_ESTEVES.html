@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap images and forms</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+<style>
+	th{text-align: center;}
+</style>
+
+<body>
+<div>
+	<table class="table table-striped  table-bordered table-hover">
+		<tr>
+			<th class="bg-dark text-light" colspan="3">Top 5 Athletes in the World</th>
+		</tr>
+		<tr>
+		<th>Images</th>
+		<th>Description</th>
+		<th>Net Worth</th>
+			</tr>
+			<tr>
+		<td><img src="https://cdn.britannica.com/18/130418-050-19E6DAB2/Manny-Pacquiao-Ricky-Hatton-knockout-victory-Philippines-May-2-2009.jpg"height="200px" width="200px"class="rounded"></td>
+		<td>Manny Pacquio. He is one of the best boxers in the Philippines. He was born on December 17, 1978</td>
+		<td>220 Million Dollars</td>
+			</tr>
+			<tr>
+		<td> <img src="https://live.staticflickr.com/8119/8645746456_9a1f13acca_z.jpg"height="200px" width="200px"class="rounded"></td>
+		<td> Michael Jordan. Born February 17, 1963. American businessman and former professional basketball player</td>
+		<td>1.7 Billion Dollars</td>
+			</tr>
+			<tr>
+		<td><img src="https://www.sportshubnet.com/wp-content/uploads/2022/06/image-9-3-1024x538.jpg?ezimgfmt=ng:webp/ngcb85" height="200px" width="200px"class="rounded"></td>
+		<td>Muhammad Ali is the richest althlete boxer. Born on Jan 17, 1942</td>
+		<td>50 Million Dollars</td>
+			</tr>
+			<tr>
+		<td><img src= "https://content.quizzclub.com/trivia/2017-05/what-year-did-wayne-gretzky-retire-from-his-professional-hockey-career.jpg" height="200px" width="200px"class="rounded"></td>
+		<td>Wayne Douglas Gretzky. Born January 26, 1961. Canadian former professional ice hockey player and former head coach. </td>
+		<td>250 Million Dollars</td>
+			</tr>
+		<tr>
+		<td><img src="https://media.cnn.com/api/v1/images/stellar/prod/230128033441-01-usain-bolt-rio-olympics-081416-file.jpg?c=16x9&q=h_270,w_480,c_fill"height="200px" width="200px"class="rounded"></td>
+		<td>Usain St. Leo Bolt. Born 21 August 1986. Jamaican retired sprinter, widely considered to be the greatest sprinter of all time</td>
+		<td>90 Million Dollars</td>
+		</tr>
+	</table>
+	</div>
+
+	<div class= "text-white bg-dark">
+	<h2> Sign up here to received articles about your favorite athletes.</h2>
+	</div>
+    <div class="container bg-primary">
+    <form>
+      <label class="text-white">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter your name">
+      <label class="text-white">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email">
+    
+ 
+	  <label class="text-white">Choose your Favorite Athlete</label>
+	  <select class="form-control" id="sel1">
+	    <option>Manny Pacquio</option>
+	    <option>Michael Jordan</option>
+	    <option>Muhammad Ali</option>
+	    <option>Wayne Douglas Gretzky</option>
+	    <option>Usain St. Leo Bolt</option>
+	  </select>
+
+	  <label class="text-white">How often do you want to receive your articles?</label>
+
+	  <div class="form-check-inline">
+		<label class="form-check-label text-white">
+		    <input type="radio" class="form-check-input" name="optradio">Daily
+		  </label>
+		</div>
+		<div class="form-check-inline">
+		  <label class="form-check-label text-white">
+		    <input type="radio" class="form-check-input" name="optradio">Weekly
+		  </label>
+		</div>
+		<div class="form-check-inline text-white">
+		  <label class="form-check-label">
+		    <input type="radio" class="form-check-input" name="optradio">Monthly
+		  </label>
+		</div>
+		<br>
+      <button class="btn btn-primary active"> Sign Up
+      </button>
+
+    
+  </form>
+
+  </div>	
+		
+
+
+</body>
+</html>
